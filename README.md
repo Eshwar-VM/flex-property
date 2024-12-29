@@ -1,1 +1,1 @@
-# flex-property
+Added a basic flex property to the CSS file to improve the layout and responsiveness of the web page. The property includes flex-grow, flex-shrink, and flex-basis to ensure that the items within the container adjust appropriately to the available space.
