@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex property</title>
+    <style>
+        .one{
+            padding: 20px;
+            width: 950px; 
+            margin-right: 20px;
+            border-style: solid;
+            border-color: blueviolet;
+        }
+          
+        .two{
+            display:inline-block;
+            background-color: black;
+            color: white;
+            padding: 5px;
+            border-radius: 2px;
+           
+        }
+        .three{
+            display: flex;
+            justify-content: center;
+        }
+        .four{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+             justify-content: space-around; 
+             justify-content: space-between; 
+            justify-content: space-evenly;
+            height: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <header class="two">Header</header>
+   
+        <h1 class="three">Image Gallery</h1>
+        <div class="four">
+
+           <img src="https://fastly.picsum.photos/id/152/3888/2592.jpg?hmac=M1xv1MzO9xjf5-tz1hGR9bQpNt973ANkqfEVDW0-WYU"  width="200px" height="200px">
+
+           <img src="https://fastly.picsum.photos/id/218/4752/3168.jpg?hmac=Orn41GOM38rjA-HLzG_hpWi1sfLgnsAAvpiB-uwjvf0"  width="200px" height="200px">
+       
+           <img src="https://fastly.picsum.photos/id/69/4912/3264.jpg?hmac=Q08LW3SoOxPfaE-y8-braexxvm5PESXMCdEDqFbEhQ8"   width="200px" height="200px">
+        
+           <img src="https://fastly.picsum.photos/id/296/3072/2048.jpg?hmac=2rqN1no5ACOxtJEFbRyRbcq2DgDrytXoDIx2CulBhHM"  width="200px" height="200px">
+        
+           <img src="https://fastly.picsum.photos/id/302/1728/1080.jpg?hmac=HlMkTqLQIirH_eozQ6CaQzdfukIGHfvGqh0uxc6CSKQ"  width="200px" height="200px">
+        
+           <img src="https://fastly.picsum.photos/id/478/5000/3333.jpg?hmac=kIvFEeCIxUYBR_H9fT9oLvaHcsNGoT-WmGP8WeEMtYw"  width="200px"height="200px">
+       
+           <img src="https://fastly.picsum.photos/id/492/5000/3324.jpg?hmac=UjctIYlzj2WIq3GgUOraBeMU-l3O46RcHK7jZnxzVjc"  width="200px"   height="200px">
+        
+           <img src="https://fastly.picsum.photos/id/511/4608/3456.jpg?hmac=Z_f-NWMzc5-v2Zp9MDUXYxgoLBIPlRKuJK6hDKOgj48"  width="200px"  height="200px">
+        
+        </div>
+    </div>
+    
+</body>
+</html>
